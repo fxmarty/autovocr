@@ -14,7 +14,7 @@ Recently, an user-friendly PyTorch based open-source OCR implementation has been
 
 It can finally be argued that Japanese subtitles present the particuliar challenge to have furigana (e.g. ![furigana](examples/furigana.png)), that are *not* supported in the .srt format, and that we would therefore want to remove through the VobSub to srt processing. To the best of my knowledge, there has been no tool tackling this specific problem.
 
-A notable mention could be the OCR services offered by e.g. Amazon or Google. Although they attain astonishing performance, they are unfortunately not open source, rely on a distant server, require the user to give away its credit card informations, and are quickly not free. I believe that for this very simple use case of VobSub to srt, they are not the most appropriate tools.
+A notable mention could be the OCR services offered by e.g. Amazon or Google APIs. Although they attain astonishing performance, they are unfortunately closed source, rely on a distant server, require the user to give away its credit card information, and are quickly not free. I believe that for this very simple use case of VobSub to srt, they are not the most appropriate tools.
 
 ## Disclaimer
 
