@@ -16,7 +16,7 @@ It can finally be argued that Japanese subtitles present the particuliar challen
 
 A notable mention could be the OCR services offered by e.g. Amazon or Google APIs. Although they attain astonishing performance, they are unfortunately closed source, rely on a distant server, require the user to give away its credit card information, and are quickly not free. I believe that for this very simple use case of VobSub to srt, they are not the most appropriate tools.
 
-## Based on
+## Based on
 
 Autovocr will most likely use [EasyOCR](https://github.com/JaidedAI/EasyOCR), as well as [subp2png from ogmrip library](http://ogmrip.sourceforge.net/en/manual.html#subp2pgm).
 
