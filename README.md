@@ -6,7 +6,7 @@ Ultimately, it could include a larger variety of languages.
 
 ## Motivation
 
-Efficient open-source OCR tools do exist, and achieve very reasonable performance on the general OCR tasks for e.g. documents or street signs. Especially, [Tesseract](https://github.com/tesseract-ocr/tesseract) has achieved largely satisfactory performances for a variety of languages, including Japanese. However, although the Tesseract 4.0's model for English language is trained on [more 4000 fonts](https://github.com/tesseract-ocr/langdata_lstm/blob/master/eng/okfonts.txt), **Japanese Tesseract OCR model is trained [only on 34 fonts](https://github.com/tesseract-ocr/langdata_lstm/blob/master/jpn/okfonts.txt)**.
+Efficient open-source OCR tools do exist, and achieve very reasonable performance on the general OCR tasks for e.g. documents or street signs. Especially, [Tesseract](https://github.com/tesseract-ocr/tesseract) has achieved largely satisfactory performances for a variety of languages, including Japanese. However, although the Tesseract 4.0's model for English language is trained on [more than 4000 fonts](https://github.com/tesseract-ocr/langdata_lstm/blob/master/eng/okfonts.txt), **Japanese Tesseract OCR model is trained [only on 34 fonts](https://github.com/tesseract-ocr/langdata_lstm/blob/master/jpn/okfonts.txt)**.
 
 Besides, it is notable that the font family mostly use for Japanese subtitles in DVDs/BluRays, namely 丸ゴシック (Maru Gothic), is *not* among the font Tesseract was trained on. It is also to note that Tesseract was *not* trained on italic for Japanese, although they are frequently present in subtitles.
 
